@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>friends_book</title>
+	
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">							
+		<link href="main.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">			
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="bootstrap.min.js"></script>
+    <body>
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">				
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+						</button>
+						
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<!-- <ul class="nav navbar-nav"> -->
+						<form class="navbar-form navbar-left">
+							<div class="inner-addon left-addon">
+							<span><i class="navbar-brand" href="#"> <i class="fa fa-facebook-square fa-2x"  aria-hidden="true" height="10" width="10"></i> 
+								<input type="text" class="form-control" placeholder="Search"><button type="submit" class="btn btn-default"></button><i class="fa fa-search spark" aria-hidden="true" height="10" width="10"></i></span></i>
+							</div>
+						</form>
+						<ul class="nav navbar-nav navbar-right ">
+							<li><img class="img-circle" src="pd.jpeg"  height="50" width="50" ></li>
+							<li class="active"><li><a class="white-text spark" href="#" id="white-text">Krish</a></li>
+							 <li><a class="white-text spark" href="#" id="white-text">Home</a></li>
+							  <li><a class="white-text spark" href="#" id="white-text">Find Friends</a></li>
+                             <li><a href="#"><i class="fa fa-user-o spark"></i></a></li>
+							<li><a href="#"><i class="fa fa-globe spark"></i></a></li>
+							<li><a href="#"><span class="fa fa-envelope spark"></span></a></li>
+							<li><a href="#"><span class="fa fa-question-circle spark"></span></a></li>
+
+                       
+							 <li class="dropdown spark">
+								<a  href="#" class="dropdown-toggle spark" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="white-text spark" href="#">Create page</a></li>
+									<li><a class="white-text spark" href="#">Manage page</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a class="white-text spark" href="#">Advertising on fb</a></li>
+									<li><a class="white-text spark" href="#">News Feed Preference</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a class="white-text spark" href="#">Account settings</a></li>
+									<li><a class="white-text spark" href="#">log Out</a></li>
+								</ul>
+							</li> 
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="hidden-xs col-sm-4 col-md-3"> <div id="menu"> <!--adding sidebar of column 3 for md and col 4 for small devices-->
+						<ul class="nav nav-pills nav-stacked">
+							
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-user-circle-o edit edit2"></i>Krish chaudhary</a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-tasks edit edit2"></i>News Feed<span class="badge">19</span></a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-commenting edit edit2"></i>Messager<span class="badge">14</span></a></li>
+							<p class = "list-heading">SHORTCUTS</p>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-graduation-cap edit edit2"></i>CSE 3rd year official<span class="badge">26</span></a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-fighter-jet edit edit2"></i>Indian Army<span class="badge">10</span></a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-quora edit edit2"></i>Quara<span class="badge">10</span></a></li>
+							<p class = "list-heading">EXPLORE</p>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-calendar edit edit2"></i>Events<span class="badge">2</span></a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-group edit edit2"></i>Groups<span class="badge">1</span></a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-group edit edit2"></i>Pages<span class="badge">80</span></a></li>
+							<li role="presentation"><a class="side1 spark" href="#"><i class="fa fa-history edit edit2"></i>On this day<span class="badge">11</span></a></li>
+							<p class = "list-heading"><a class="side1" href="#">See more . . . </a></p>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-6"><!--adding main of column 6 for md and col 8 for small devices-->
+					<div id="main">
+						<div class="panel panel-default"><!--adding pannels for post-->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<button class="p" type="submit"><i class="fa fa-pencil p1" aria-hidden="true"></i>Create a Post</button>
+										<button class="p"  type="submit"><i class="fa fa-book p1" aria-hidden="true"></i>Picture/Video Album</button>
+											<button  class="p" type="submit"><i class="fa fa-video-camera p1" aria-hidden="true"></i>Live Video</button>
+								</div>
+								<div class="panel-body form-group">
+									<span><img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle " alt="Responsive image">
+									<input class="p-input" type="text" style="margin:0 auto; border:none;" placeholder="Share an update krish"></input></span>
+								</div>
+								<div class="panel-footer">
+									<button  class="p" type="select"><i class="fa fa-picture-o p1"></i>Picture/Video</button>
+									<button class="p"  type="select"><i class="fa fa-meh-o p1"></i>feeling/Activity</button>
+									<button class="p"  type="select">.....</button>
+								</div>
+							</div>
+							<div class="panel-heading">
+								<h3 class="panel-title"><a class="change2" href="#"><img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle ">
+	                            Krish<i class="fa fa-sort-desc"></i></a></h3>
+							</div>
+							<div class="panel-body">	<!--adding 1st post-->
+							<blockquote>
+								<p>If death strikes before I prove my blood,I swear I'll KILL death</p>
+									<footer>Lt.Arun Kehtarpal<cite title="Source Tittle">The ARMY SOLDIER</cite></footer>
+							</blockquote>
+							<span><span class="glyphicon glyphicon-thumbs-up " aria-hidden="true"></span>Like</span><!--adding like and comments icon in post-->
+							<span><span class="glyphicon glyphicon-comment " aria-hidden="true"></span>Comment</span>
+							<span><span class="glyphicon glyphicon-share-alt " aria-hidden="true"></span>Share</span>
+							</div>
+							<div class="panel-footer"><div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="rk.jpg" height="40" width="40"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>								
+									<div class="media-body">
+                                        <p class="comment"> <span><a class ="change1"href="#">Ritik  </a></span> our real heroes</p>
+											<div> 
+                                                <small> <span> <a class="change1" href="#">Like </a></span> <span> <a class="change1" href="#">Comment </a></span> </small>
+                                            </div>
+                                            <div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>
+                                               <div class="media-body">
+											<input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+											</div>
+									</div></div>
+							<div class="panel-heading head">
+							<h3 class="panel-title"><a class="change2" href="#"><img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle ">Krish<i class="fa fa-sort-desc"></i></a></h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<div>
+										<img src="a1.jpg" height="500" width="500" class="img-responsive" >
+									</div>
+									<span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+									<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>	
+									<span><span class="glyphicon glyphicon-share-alt " aria-hidden="true"></span>Share</span>			
+								</div>
+                                
+                                <div class="panel-footer"><div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="sunita.jpg" height="45" width="45"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>								
+									<div class="media-body">
+                                        <p class="comment"> <span><a class ="change1"href="#">Sunita Singh</a></span>   because of you we live safely</p>
+											<div> 
+                                                <small> <span> <a class="change1" href="#">Like </a></span> <span> <a class="change1" href="#">Comment </a></span> </small>
+                                            </div>
+
+
+
+							</div>			
+
+                                <div class="panel-footer"><div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>								
+									<div class="media-body">
+                                        <p class="comment"> <span><a class ="change1"href="#">krish</a></span>  salute to our real heroes</p>
+											<div> 
+                                                <small> <span> <a class="change1" href="#">Like </a></span> <span> <a class="change1" href="#">Comment </a></span> </small>
+                                            </div>
+
+
+
+							</div>			
+                                   </div> 
+
+                                     
+                                    <div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>
+                                               <div class="media-body">
+											<input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+											</div>
+									</div></div>
+							
+							<div class="panel-heading head"> 
+								<h3 class="panel-title"><a class="change2" href="#"><img src="youtube_2.jpeg" height="40" width="40"  class="profile-image img-circle ">youtube <i class="fa fa-sort-desc"></i></a></h3>
+							</div>
+							<div class="panel-body">
+								<div>
+									<div>
+									<div><h3 class="text-post">THE BLACK PANTHER</h3></div>
+										<iframe width="420" height="315" src="https://www.youtube.com/embed/sw_oIwL_JXM" class="img-responsive"></iframe>
+									</div>
+									<span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+									<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>				
+								</div>
+							</div>			
+							
+
+							<div class="panel-footer"><div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="armal.jpg" height="40" width="40"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>								
+									<div class="media-body">
+                                        <p class="comment"> <span><a class ="change1"href="#">Armal khan</a></span>   proud to be indian</p>
+											<div> 
+                                                <small> <span> <a class="change1" href="#">Like </a></span> <span> <a class="change1" href="#">Comment </a></span> </small>
+                                            </div>
+
+
+
+							</div>			
+
+                                <div class="panel-footer"><div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="maan.jpeg" height="45" width="45"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>								
+									<div class="media-body">
+                                        <p class="comment"> <span><a class ="change1"href="#">Maan</a></span>  My aim</p>
+											<div> 
+                                                <small> <span> <a class="change1" href="#">Like </a></span> <span> <a class="change1" href="#">Comment </a></span> </small>
+                                            </div>
+
+
+
+							</div>			
+                                   </div> 
+
+                                     
+                                    <div class="media-left"><!--adding footer of post-->
+                                                  <a href="#">
+                                                      <img src="pd.jpeg" height="40" width="40"  class="profile-image img-circle ">
+                                                   </a>
+                                               </div>
+                                               <div class="media-body">
+											<input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+											</div>
+									</div></div>
+						
+					</div>
+				</div>
+				<div>
+				<div class="hidden-xs hidden-sm col-md-3"><!--adding another side bar of column 3 and using hidden property for making responsive in xs and md -->
+					<div id="sidebar">
+						<ul class="nav nav-tabs " role="tablist" style="padding:1px;">
+						<!--adding content heading of side bar-->
+							<li role="presentation" class="active"><a  href="#top trending" aria-controls="home" role="tab" data-toggle="tooltab" title="top trending"><i class="fa fa-line-chart"  aria-hidden="true"></i></a></li>
+							<li role="presentation" "><a href="#politics" aria-controls="profile" role="tab" data-toggle="tooltab" title="politics"><i class="fa fa-university " aria-hidden="true"></i></a></li>
+							<li role="presentation" "><a href="#Science and technology" aria-controls="messages" role="tab" data-toggle="tooltab" title="Science and technology"><i class="fa fa-flask " aria-hidden="true"></i></a></li>
+						
+						<li role="presentation"><a href="#Entertainment" aria-controls="messages" role="tab" data-toggle="tab" data-toggle="tooltip" title="entertainment"><i class="fa fa-film" aria-hidden="true"></i></a></li></ul>
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane active" id="top trending">
+						<ul class="nav nav-pills nav-stacked">
+							<li role="separator" class="divider"></li>
+							<li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  india vs china</a></li>
+									<li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  TATA new ceo</a></li><!--adding content of side bar-->
+									<li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  Mosul Iraq</a></li>
+						            <li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  GST-Modi new stroke</a></li>
+						            <li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  201 satellite launched by India</a></li>
+						            <li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  Nasa new discovery</a></li>
+						            <li role="presentation"><a class="e3 spark" href="#"><i class="fa fa-line-chart"  aria-hidden="true"></i>  Woman's world cup 2017</a></li>
+
+                                    <p class = "list-heading"><a class="side1" href="#">See more . . . </a></p>
+
+</div>
+                                     
+<div>      
+<div class="panel-heading head">
+							<h3 class="panel-title"><a class="change2" href="#">Suggested pages</a></h3>
+							
+							<div class="panel-body">
+								<div>
+									<div>
+										<img src="c1.jpg" height="600" width="600" class="img-responsive" >
+									</div>			
+								</div>
+                                           
+                                               </div>		
+
+</div>
+
+
+
+
+
+
+
+
+
+						</ul>
+							</div>
+							</div>
+						</div>
+			
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<footer >
+			<ul class="nav nav-pills pull-right">													<!--adding footer of page -->
+				<li role="presentation "><a class="b1 edit5" href="# ">About Us</a></li>
+				<li role="presentation "><a class="b1 edit5" href="# ">Home</a></li>
+				<li role=" presentation "><a class="b1 edit5" href="# ">Privacy</a></li>
+				<li role="presentation "><a class="b1 edit5" href="# ">Advertising</a></li>			<!--adding content of footer-->
+				<li role="presentation "><a class="b1 edit5" href="# ">Cookies</a></li>
+				<li role="presentation "><a class="b1 edit5" href="# ">Ad Choices</a></li>
+			</ul>
+		</footer>
+	</body>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+</html>
